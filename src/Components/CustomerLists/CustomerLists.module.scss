@@ -1,0 +1,25 @@
+.wrapper{
+    width: 100%;
+    background-color: rgb(250, 250, 250)
+}
+
+.content{
+    width: 1200px;
+    margin-right: calc((100% - 1200px)/2);
+    margin-left: calc((100% - 1200px)/2);
+}
+
+.text{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+
+}

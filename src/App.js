@@ -1,9 +1,16 @@
+import Header from "./Components/Header";
+import Introduce from "./Components/Introduce";
+import CustomerLists from "./Components/CustomerLists";
+import Purpose from "./Components/Purpose";
 
 
 function App() {
   return (
     <div className="App">
-      <div>hêlo</div>
+      <Header />
+      <Introduce />
+      <CustomerLists />
+      <Purpose />
     </div>
   );
 }
