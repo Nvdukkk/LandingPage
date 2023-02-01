@@ -1,108 +1,123 @@
 @import "normalize.css";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-    --primary-color: rgb(28, 0, 194);
-    --secondary-color : rgb(31, 27, 100);
+  --primary-color: rgb(28, 0, 194);
+  --secondary-color: rgb(31, 27, 100);
 }
 a {
-    color: black;
-    font-size: 15px;
-    text-decoration: none;
-  }
-  
-  html {
-    font-size: 15px;
-    font-weight: 400;
-  }
-  
-  body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    line-height: 1.6;
-    text-rendering: optimizeSpeed;
-  }
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+html {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  text-rendering: optimizeSpeed;
+  background-color: rgb(250, 250, 250);
+}
 
 button,
 input,
 [tabindex] {
   outline: none;
   border: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-
 
 table {
-    border-collapse: collapse;
-  }
-  
+  border-collapse: collapse;
+}
+
 .href {
-    text-align: center;
-    color: #3c8dbc;
-    padding-left: 4px;
-}
-      
-.white-btn{
-    color: var(--primary-color);
-    background-color: white;
-    border: 1px solid var(--primary-color);
-    border-radius: 2px;
-    &:hover{
-        cursor: pointer;
-        color: white;
-        background-color: var(--primary-color);
-    }
+  text-align: center;
+  color: #3c8dbc;
+  padding-left: 4px;
 }
 
-.primary-btn{
+.white-btn {
+  color: var(--primary-color);
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  border-radius: 2px;
+  &:hover {
+    cursor: pointer;
     color: white;
-    border: 1px solid var(--primary-color);
-    border-radius: 2px;
     background-color: var(--primary-color);
-    &:hover{
-        cursor: pointer;
-    }
+  }
 }
 
+.primary-btn {
+  color: white;
+  border: 1px solid var(--primary-color);
+  border-radius: 2px;
+  background-color: var(--primary-color);
+  &:hover {
+    cursor: pointer;
+  }
+}
 
 .nav-bar,
-.nav-bar-no-color{
-    &:hover{
-        cursor: pointer;
-    }
+.nav-bar-no-color {
+  &:hover {
+    cursor: pointer;
+  }
 }
 
-.nav-bar{
-    &:hover{
-        color: var(--primary-color);
-    }
+.nav-bar {
+  &:hover {
+    color: var(--primary-color);
+  }
 }
 
-.heavy{
-    font-weight: bold;
+.heavy {
+  font-weight: bold;
 }
 
-.purpose-btn{
-    background-color: white;
-    color: rgb(119, 128, 144);
-    border-radius: 2px;
-    &:hover{
-        color: var(--primary-color);
-        background-color: #f3f8fb;
-        cursor: pointer;
-    }
+.purpose-btn {
+  background-color: white;
+  color: rgb(119, 128, 144);
+  border-radius: 2px;
+  &:hover {
+    color: var(--primary-color);
+    background-color: #f3f8fb;
+    cursor: pointer;
+  }
 }
-.purpose-btn.active{
-    color: white;
-    border: 1px solid white;
-    border-radius: 2px;
-    background-color: var(--primary-color);
+.purpose-btn.active {
+  color: white;
+  border: 1px solid white;
+  border-radius: 2px;
+  background-color: var(--primary-color);
 
-    &:hover{
-        cursor: auto;
-    }
+  &:hover {
+    cursor: auto;
+  }
+}
+
+.head-line {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 50px;
+  padding-top: 90px;
+  padding-bottom: 16px;
+}
+
+.second-line {
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-align: center;
 }

@@ -9,7 +9,7 @@ function Services() {
     return (
       <div className={cx("wrapper")}>
         <div className={cx("content")}>
-            <div className={cx("line1")}>
+            <div className="head-line">
             Tăng trưởng doanh số thương mại điện tử
 
             </div>

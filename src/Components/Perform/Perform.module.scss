@@ -1,0 +1,36 @@
+.wrapper {
+  width: 100%;
+}
+
+.content {
+  width: 1200px;
+
+  margin-right: calc((100% - 1200px) / 2);
+  margin-left: calc((100% - 1200px) / 2);
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+}
+.container {
+  width: 380px;
+  height: 380px;
+  position: relative;
+  img {
+    width: 307.249px;
+    height: 203.926px;
+    border-radius: 10px;
+    position: absolute;
+    top: -58px;
+    left: 35px;
+    z-index: 11;
+  }
+}
+
+.box {
+  height: 326px;
+  border: 2px solid rgb(241, 243, 244);
+  border-radius: 10px;
+  position: relative;
+}
