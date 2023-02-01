@@ -3,7 +3,7 @@
     background-color: rgb(250, 250, 250)
 }
 
-.content{
+.content,.box-content{
     width: 1200px;
     margin-right: calc((100% - 1200px)/2);
     margin-left: calc((100% - 1200px)/2);
@@ -42,3 +42,32 @@
     
 }
 
+.box-content{
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-headline{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 60px;
+    
+}
+
+.box-text{
+    color: white;
+    margin-right: 70px;
+    button{
+        margin-top: 70px;
+
+        &:hover{
+            cursor: pointer !important;
+        }
+    }
+}
+
+.box-line2{
+    margin-top: 20px;
+}

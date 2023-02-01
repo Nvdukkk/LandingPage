@@ -1,12 +1,13 @@
 import styles from './Purpose.module.scss'
 import classNames from "classnames/bind";
+import img1 from "./Purpose1.jpg"
 
 const cx = classNames.bind(styles);
 
 function Purpose() {
     return (
       <div className={cx("wrapper")}>
-           <div className={cx("content")}>
+        <div className={cx("content")}>
 
                 <div className={cx("line1")}>
                 Linh hoạt tùy biến theo mục tiêu <br></br> marketing của bạn
@@ -51,11 +52,32 @@ function Purpose() {
                     Truyền thông sự kiện
                     </button>
                 </div>
-            </div>
-            <div className={cx("box")}>
-                
+        </div>
 
+        <div className={cx("box")}>
+          
+          <div className={cx("box-content")}>
+          <img src={img1} alt="img1"></img>
+
+            <div className={cx("box-text")}>
+              <div className={cx("box-headline")}>Tăng trưởng doanh số đa kênh</div>
+              <div className={cx("box-line1")}>Sử dụng sales page để thuyết phục khách hàng ra quyết 
+              <br></br> định đặt mua nhanh chóng, tối đa hóa tỉ lệ chuyển đổi 
+              <br></br>từ quảng cáo và gia tăng doanh số đa kênh. 
+              </div>
+              <div className={cx("box-line2")} style={{fontWeight : 600}}>
+                Tối ưu hơn khi có các tính năng:
+
+              </div>
+              <div>
+                Landing Page, Popup Upsell và Cross-sell, Sticky bar, <br></br>Countdown, Notify...
+              </div>
+              <button className='purpose-btn active heavy' style={{ width: 230}}> 
+                Sử dụng miễn phí ngay
+              </button>   
             </div>
+          </div>
+        </div>
     </div>
 
       
