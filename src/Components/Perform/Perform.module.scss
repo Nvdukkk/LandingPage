@@ -33,4 +33,22 @@
   border: 2px solid rgb(241, 243, 244);
   border-radius: 10px;
   position: relative;
+  
+}
+
+.box-line1{
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: 170px;
+  left: 35px;
+  color: var(--secondary-color);
+}
+
+.box-line2{
+  color:rgb(119, 127, 144);
+  position: absolute;
+  top: 210px;
+  left: 35px;
+  width: 300px;
 }

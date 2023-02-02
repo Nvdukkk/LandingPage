@@ -1,0 +1,21 @@
+.wrapper{
+    width: 100%;
+    background-color: var(--primary-color);
+    height: 676.69px;
+    background-image: url("./background.jpg");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.content{
+    
+        width: 1200px;
+        
+      margin-right: calc((100% - 1200px) / 2);
+      margin-left: calc((100% - 1200px) / 2);
+}
+
+.hyper-line{
+    font-size: 18px;
+}

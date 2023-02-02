@@ -7,6 +7,9 @@ import Services from "./Components/Services";
 import Social from "./Components/Social";
 import Reason from "./Components/Reason";
 import Perform from "./Components/Perform";
+import Livechat from "./Components/Livechat";
+import SubFooter from "./Components/SubFooter";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="App">
@@ -20,6 +23,9 @@ function App() {
       <Social />
       <Reason />
       <Perform />
+      <Livechat />
+      <SubFooter />
+      <Footer />
     </div>
   );
 }
