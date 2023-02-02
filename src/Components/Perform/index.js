@@ -19,7 +19,10 @@ function Perform() {
             ></img>
             <div className={cx("box")}>
               <div className={cx("box-line1")}>Doanh nghiệp</div>
-              <div className={cx("box-line2")}>Đơn giản và chỉ cần 1 nhân sự triển khai giúp rút ngắn chạy chiến dịch digital marketing, không cần lập trình</div>
+              <div className={cx("box-line2")}>
+                Đơn giản và chỉ cần 1 nhân sự triển khai giúp rút ngắn chạy
+                chiến dịch digital marketing, không cần lập trình
+              </div>
             </div>
           </div>
           <div className={cx("container")}>
@@ -29,7 +32,10 @@ function Perform() {
             ></img>
             <div className={cx("box")}>
               <div className={cx("box-line1")}>Doanh nghiệp</div>
-              <div className={cx("box-line2")}>Đơn giản và chỉ cần 1 nhân sự triển khai giúp rút ngắn chạy chiến dịch digital marketing, không cần lập trình</div>
+              <div className={cx("box-line2")}>
+                Đơn giản và chỉ cần 1 nhân sự triển khai giúp rút ngắn chạy
+                chiến dịch digital marketing, không cần lập trình
+              </div>
             </div>
           </div>
           <div className={cx("container")}>
@@ -39,10 +45,18 @@ function Perform() {
             ></img>
             <div className={cx("box")}>
               <div className={cx("box-line1")}>Doanh nghiệp</div>
-              <div className={cx("box-line2")}>Đơn giản và chỉ cần 1 nhân sự triển khai giúp rút ngắn chạy chiến dịch digital marketing, không cần lập trình</div>
+              <div className={cx("box-line2")}>
+                Đơn giản và chỉ cần 1 nhân sự triển khai giúp rút ngắn chạy
+                chiến dịch digital marketing, không cần lập trình
+              </div>
             </div>
           </div>
         </div>
+        <button className={cx("usenow-btn")}>
+          
+            Sử dụng miễn phí ngay
+          
+        </button>
       </div>
     </div>
   );

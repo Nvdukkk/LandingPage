@@ -1,6 +1,7 @@
 import styles from "./Purpose.module.scss";
 import classNames from "classnames/bind";
 import img1 from "./Purpose1.jpg";
+import UseNowbtn from "../Button/UseNowbtn";
 
 const cx = classNames.bind(styles);
 
@@ -61,9 +62,7 @@ function Purpose() {
               Landing Page, Popup Upsell và Cross-sell, Sticky bar, <br></br>
               Countdown, Notify...
             </div>
-            <button className="purpose-btn active heavy" style={{ width: 230 }}>
-              Sử dụng miễn phí ngay
-            </button>
+            <UseNowbtn />
           </div>
         </div>
       </div>

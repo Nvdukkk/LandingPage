@@ -1,6 +1,7 @@
 import styles from './Tools.module.scss'
 import classNames from "classnames/bind";
 import tool1 from "./Tool1.jpg"
+
 const cx = classNames.bind(styles);
 
 function Tools() {
