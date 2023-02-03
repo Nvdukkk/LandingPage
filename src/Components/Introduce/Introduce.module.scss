@@ -5,6 +5,9 @@
   .line2 {
     font-size: 34px;
   }
+  .background-img{
+    background-size: contain
+  }
 }
 @media (min-width: 1001px) {
   .line1 {
@@ -12,6 +15,8 @@
   }
   .line2 {
     font-size: 48px;
+    margin-right: calc((100% - 800px) / 2);
+    margin-left: calc((100% - 800px) / 2);
   }
 }
 .wrapper {

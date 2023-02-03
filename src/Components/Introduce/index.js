@@ -11,7 +11,7 @@ function Introduce() {
           <div className={cx("line1")}>Landing Page Platform</div>
 
           <div className={cx("line2")}>
-            #1 Nền tảng landing page cho các hoạt động quảng cáo
+            #1 Nền tảng landing page cho các hoạt động <div></div>quảng cáo
           </div>
 
           <div className={cx("line3")}>
