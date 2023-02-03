@@ -1,5 +1,6 @@
 import styles from "./Perform.module.scss";
 import classNames from "classnames/bind";
+import CenterUseNowBtn from "../Button/CenterUseNowbtn";
 
 const cx = classNames.bind(styles);
 
@@ -52,11 +53,7 @@ function Perform() {
             </div>
           </div>
         </div>
-        <button className={cx("usenow-btn")}>
-          
-            Sử dụng miễn phí ngay
-          
-        </button>
+        <CenterUseNowBtn></CenterUseNowBtn>
       </div>
     </div>
   );

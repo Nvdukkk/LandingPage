@@ -1,0 +1,12 @@
+.usenow-btn{
+    height: 58px;
+    width: 230px;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 2px;
+    
+    &:hover{
+      cursor: pointer;
+    }
+  }

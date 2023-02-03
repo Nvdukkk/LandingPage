@@ -1,6 +1,8 @@
 import styles from "./Header.module.scss";
 import classNames from "classnames/bind";
+import {BsList} from "react-icons/bs"
 import logo from "./logo.jpg";
+
 const cx = classNames.bind(styles);
 
 function Header() {
@@ -12,16 +14,20 @@ function Header() {
         </div>
 
         <div className={cx("header-navbar")}>
-          <div className="nav-bar-no-color nav-bar-items">Giải pháp</div>
-          <div className="nav-bar nav-bar-items">Công cụ</div>
-          <a className="nav-bar heavy nav-bar-items">Bảng giá</a>
-          <a className="nav-bar nav-bar-items">Tài liệu</a>
+          <div className="nav-bar-no-color nav-bar-items no-mobile">Giải pháp</div>
+          <div className="nav-bar nav-bar-items no-mobile">Công cụ</div>
+          <a href="/" className="nav-bar heavy nav-bar-items no-mobile">Bảng giá</a>
+          <a href="/" className="nav-bar nav-bar-items no-mobile">Tài liệu</a>
         </div>
 
-        <div>
+        <div className="no-mobile">
           <button className="white-btn heavy nav-bar-items">Đăng nhập</button>
           <button className="primary-btn heavy nav-bar-items">Đăng ký</button>
         </div>
+
+        <button className="no-desktop header-btn">
+          <BsList />
+        </button>
       </div>
     </div>
   );
