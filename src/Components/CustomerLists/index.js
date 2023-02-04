@@ -18,49 +18,46 @@ function CustomerLists() {
                 <img
                 src={f88}
                 alt="f88"
-                className={cx("header-avatar")}
                 ></img>
             
                 <img
                 src={f88}
                 alt="f88"
-                className={cx("header-avatar")}
                 ></img>
             
                 <img
                 src={f88}
                 alt="f88"
-                className={cx("header-avatar")}
                 ></img>
             
                 <img
                 src={f88}
                 alt="f88"
-                className={cx("header-avatar")}
+                className="no-mobile"
                 ></img>
             
                 <img
                 src={f88}
                 alt="f88"
-                className={cx("header-avatar")}
+                className="no-mobile"
                 ></img>
             
                 <img
                 src={f88}
                 alt="f88"
-                className={cx("header-avatar")}
+                className="no-mobile"
                 ></img>
             
                 <img
                 src={f88}
                 alt="f88"
-                className={cx("header-avatar")}
+                className="no-mobile"
                 ></img>
             
                 <img
                 src={f88}
                 alt="f88"
-                className={cx("header-avatar")}
+                className="no-mobile"
                 ></img>
             </div>
             
@@ -69,49 +66,46 @@ function CustomerLists() {
                 <img
                 src={f88}
                 alt="f88"
-                className={cx("header-avatar")}
                 ></img>
             
                 <img
                 src={f88}
                 alt="f88"
-                className={cx("header-avatar")}
                 ></img>
             
                 <img
                 src={f88}
                 alt="f88"
-                className={cx("header-avatar")}
                 ></img>
             
                 <img
                 src={f88}
                 alt="f88"
-                className={cx("header-avatar")}
+                className="no-mobile"
                 ></img>
             
                 <img
                 src={f88}
                 alt="f88"
-                className={cx("header-avatar")}
+                className="no-mobile"
                 ></img>
             
                 <img
                 src={f88}
                 alt="f88"
-                className={cx("header-avatar")}
+                className="no-mobile"
                 ></img>
             
                 <img
                 src={f88}
                 alt="f88"
-                className={cx("header-avatar")}
+                className="no-mobile"
                 ></img>
             
                 <img
                 src={f88}
                 alt="f88"
-                className={cx("header-avatar")}
+                className="no-mobile"
                 ></img>
             </div>
             {/* TRUYỀN PROPS */}

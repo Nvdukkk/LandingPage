@@ -50,7 +50,7 @@ table {
   color: var(--primary-color);
   background-color: white;
   border: 1px solid var(--primary-color);
-  border-radius: 2px;
+  border-radius: 4px;
   &:hover {
     cursor: pointer;
     color: white;
@@ -61,7 +61,7 @@ table {
 .primary-btn {
   color: white;
   border: 1px solid var(--primary-color);
-  border-radius: 2px;
+  border-radius: 4px;
   background-color: var(--primary-color);
   &:hover {
     cursor: pointer;
@@ -81,15 +81,16 @@ table {
   }
 }
 
-
 .heavy {
   font-weight: bold;
 }
 
 .purpose-btn {
+  width: 178px;
+  height: 38px;
   background-color: white;
   color: rgb(119, 128, 144);
-  border-radius: 2px;
+  border-radius: 4px;
   &:hover {
     color: var(--primary-color);
     background-color: #f3f8fb;
@@ -99,7 +100,7 @@ table {
 .purpose-btn.active {
   color: white;
   border: 1px solid white;
-  border-radius: 2px;
+  border-radius: 4px;
   background-color: var(--primary-color);
 
   &:hover {
@@ -110,31 +111,43 @@ table {
 .head-line {
   text-align: center;
   color: var(--secondary-color);
-  font-size: 34px;
   font-weight: bold;
-  line-height: 50px;
-  padding-top: 90px;
   padding-bottom: 16px;
 }
 
 .second-line {
-  font-size: 18px;
   margin-bottom: 40px;
   text-align: center;
 }
 
 @media (max-width: 1000px) {
-  .no-mobile{
-    display: none !important
-  }   
-  .header-btn{
+  .no-mobile {
+    display: none !important;
+  }
+  .header-btn {
     width: 35px;
     height: 35px;
+  }
+  .head-line {
+    padding-top: 40px;
+    font-size: 24px;
+    margin: 0px 10px;
+  }
+  .second-line {
+    font-size: 15px;
   }
 }
 
 @media (min-width: 1001px) {
-  .no-desktop{
+  .no-desktop {
     display: none !important;
-  }   
+  }
+  .head-line {
+    font-size: 34px;
+    line-height: 50px;
+    margin: 90px 230px 0 230px;
+  }
+  .second-line {
+    font-size: 18px;
+  }
 }
