@@ -10,9 +10,8 @@ function Social() {
         <div className="head-line">Kết nối đa nền tảng tự động sau 1 click</div>
         <div className="second-line">
           Đo lường chuyển đổi tự động từ Facebook, Google Analytics, Google Ads,
-          TikTok,... Kết nối
-          <br></br>dữ liệu linh hoạt đa nền tảng với kho ứng dụng từ LadiPage.
-          Kết nối với website: WordPress, <br></br> Shopify, Sapo, Haravan,
+          TikTok,... Kết nối dữ liệu linh hoạt đa nền tảng với kho ứng dụng từ
+          LadiPage. Kết nối với website: WordPress, Shopify, Sapo, Haravan,
           iTop, Web riêng,...
         </div>
 

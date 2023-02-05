@@ -13,8 +13,7 @@ function Services() {
         <div className="head-line">Tăng trưởng doanh số thương mại điện tử</div>
         <div className={cx("line2")}>
           Bằng cách đưa khách hàng từ mọi nơi về landing page đặt hàng, bạn sẽ
-          rút ngắn quá
-          <br></br> trình tư vấn, tối ưu chi phí vận hành để tập trung tăng
+          rút ngắn quá trình tư vấn, tối ưu chi phí vận hành để tập trung tăng
           trưởng doanh số đa kênh
         </div>
 
@@ -22,28 +21,28 @@ function Services() {
           <button className={cx("active")}>
             <IoShirtOutline className={cx("icon")} />
             <br></br>
-            Thời trang - Mỹ phẩm
+            <div style={{ width: 160 }}>Thời trang - Mỹ phẩm</div>
           </button>
 
           <button>
             <IoShirtOutline className={cx("icon")} />
             <br></br>
-            Thời trang - Mỹ phẩm
+            <div style={{ width: 160 }}>Thời trang - Mỹ phẩm</div>
           </button>
           <button>
             <IoShirtOutline className={cx("icon")} />
             <br></br>
-            Thời trang - Mỹ phẩm
+            <div style={{ width: 160 }}>Thời trang - Mỹ phẩm</div>
           </button>
           <button>
             <IoShirtOutline className={cx("icon")} />
             <br></br>
-            Thời trang - Mỹ phẩm
+            <div style={{ width: 160 }}>Thời trang - Mỹ phẩm</div>
           </button>
           <button>
             <IoShirtOutline className={cx("icon")} />
             <br></br>
-            Thời trang - Mỹ phẩm
+            <div style={{ width: 160 }}>Thời trang - Mỹ phẩm</div>
           </button>
         </div>
 
