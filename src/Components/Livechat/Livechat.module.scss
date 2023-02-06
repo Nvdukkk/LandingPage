@@ -1,20 +1,60 @@
-.wrapper{
-    width: 100%;
-    margin-top: 90px;
+@media (max-width: 1000px){
+    .wrapper,
+    .content{
+        width: 400px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 20px 10px;
+    }
+    .supporter-img{
+        width: 100%;
+    }
+    .head-line{
+        font-size: 24px;
+    }
+    .livechat-img2{
+    top: 50px;
+    left: -58px;
+    }
+    .sub-line{
+        padding-right: 30px;
+        margin-bottom: 10px;
+    }
 }
-.content{
-    width: 1200px;
-    height: 370px;
-  margin-right: calc((100% - 1200px) / 2);
-  margin-left: calc((100% - 1200px) / 2);
-  display: flex;
+@media (min-width: 1001px){
+    .wrapper{
+        width: 100%;
+        margin-top: 90px;
+    }
+    
+    .content{
+        width: 1200px;
+        height: 370px;
+      margin-right: calc((100% - 1200px) / 2);
+      margin-left: calc((100% - 1200px) / 2);
+      display: flex;
+    }
+    .supporter-img{
+        height: 100%;
+    }
+    .text{
+        padding-top: 100px;
+        padding-left: 90px;
+    }
+    .head-line{
+        font-size: 34px;
+    line-height: 50px;
+    }
+    .livechat-img2{
+        top: -30px;
+        right: -103px;
+    }
 }
+
 .image{
     position: relative;
 }
-.supporter-img{
-    height: 100%;
-}
+
 .livechat-img1,
 .livechat-img2,
 .livechat-img3{
@@ -30,8 +70,7 @@
     height: 165px;
 }
 .livechat-img2{
-    top: -30px;
-    right: -103px;
+    
     width: 190.5px;
     height: 127px;
 }
@@ -42,16 +81,11 @@
     height: 200.362px;
     animation: reverse-shake 20s 1s infinite ;
 }
-.text{
-    padding-top: 100px;
-    padding-left: 90px;
 
-}
 .head-line{
-    font-size: 34px;
+    
     font-weight: bold;
     color: var(--secondary-color);
-    line-height: 50px;
     padding-bottom: 15px;
 }
 

@@ -11,7 +11,7 @@ function SubFooter() {
       <div className={cx("content")}>
         <div className={cx("text")}>
           <div className="head-line">
-            Tối đa hóa hiệu quả marketing cùng<br></br>
+            Tối đa hóa hiệu quả marketing cùng
             400,000+ khách hàng của chúng tôi
           </div>
         </div>

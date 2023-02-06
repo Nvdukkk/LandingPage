@@ -36,26 +36,30 @@ function Footer() {
             <div>18 Trần Thiện Chánh, Phường 12, Quận 10, TP. Hồ Chí Minh</div>
             <div>Hotline: 1900 636 040</div>
           </div>
-          <div className={cx("col2")}>
-            <div className={cx("hyper-line")}>Tài liệu</div>
-            <a href="#">Kho giao diện</a>
-            <a href="#">Kho giao diện</a>
+          
+          <div className={cx("responsive")}>
 
-            <a href="#">Kho giao diện</a>
-            <a href="#">Kho giao diện</a>
-            <a href="#">Kho giao diện</a>
-            <a href="#">Kho giao diện</a>
-            <a href="#">Kho giao diện</a>
-          </div>
-          <div className={cx("col3")}>
-            <div className={cx("hyper-line")}>LadiPage</div>
-            <a href="#">Kho giao diện</a>
-            <a href="#">Kho giao diện</a>
-            <a href="#">Kho giao diện</a>
-            <a href="#">Kho giao diện</a>
-            <a href="#">Kho giao diện</a>
-            <a href="#">Kho giao diện</a>
-            <a href="#">Kho giao diện</a>
+            <div className={cx("col2")}>
+              <div className={cx("hyper-line")}>Tài liệu</div>
+              <a href="#">Kho giao diện</a>
+              <a href="#">Kho giao diện</a>
+
+              <a href="#">Kho giao diện</a>
+              <a href="#">Kho giao diện</a>
+              <a href="#">Kho giao diện</a>
+              <a href="#">Kho giao diện</a>
+              <a href="#">Kho giao diện</a>
+            </div>
+            <div className={cx("col3")}>
+              <div className={cx("hyper-line")}>LadiPage</div>
+              <a href="#">Kho giao diện</a>
+              <a href="#">Kho giao diện</a>
+              <a href="#">Kho giao diện</a>
+              <a href="#">Kho giao diện</a>
+              <a href="#">Kho giao diện</a>
+              <a href="#">Kho giao diện</a>
+              <a href="#">Kho giao diện</a>
+            </div>
           </div>
         </div>
 

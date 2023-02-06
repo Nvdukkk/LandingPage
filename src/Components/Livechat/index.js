@@ -21,8 +21,8 @@ function Livechat() {
         <div className={cx("text")}>
             <div className={cx("head-line")}>Gặp thao tác khó,<br></br>có livechat lo</div>
             <div className={cx("sub-line")}>Chúng tôi sẽ không bỏ lỡ bất kỳ tin nhắn của bạn và luôn sẵn sàng
-            <br></br> hướng dẫn chi tiết các bước sử dụng các công cụ trong vòng 5 phút.
-            <br></br>Livechat ngay với LadiPage </div>
+             hướng dẫn chi tiết các bước sử dụng các công cụ trong vòng 5 phút.
+            Livechat ngay với LadiPage </div>
         </div>
       </div>
     </div>

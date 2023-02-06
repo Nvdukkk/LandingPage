@@ -25,7 +25,7 @@ function Header() {
           <button className="primary-btn heavy nav-bar-items">Đăng ký</button>
         </div>
 
-        <button className="no-desktop header-btn">
+        <button className="no-desktop header-btn" style={{backgroundColor: "white"}}>
           <BsList />
         </button>
       </div>

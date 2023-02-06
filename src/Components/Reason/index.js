@@ -8,7 +8,7 @@ function Reason() {
     <div className={cx("wrapper")}>
       <div className={cx("content")}>
         <div className="head-line">
-          Tại sao LadiPage là nền tảng phổ biến<br></br>#1 tại Việt Nam?
+          Tại sao LadiPage là nền tảng phổ biến #1 tại Việt Nam?
         </div>
         <div className={cx("reason")}>
           <div className={cx("reason-box1")}>
