@@ -1,7 +1,7 @@
-@media (max-width: 1000px) {
-  .wrapper,
+@media (max-width: 767px) {
   .content {
-    width: 420px;
+    padding-top:60px;
+    padding-bottom: 10px;
   }
   .line1 {
     font-size: 20px;
@@ -19,15 +19,14 @@
     margin: 0 52px;
   }
   .line5 {
-    button{
-
+    button {
       margin: 0 5px;
       height: 58px;
       width: 190px;
     }
   }
 }
-@media (min-width: 1001px) {
+@media (min-width: 768px) {
   .wrapper {
     width: 100%;
   }
@@ -49,9 +48,12 @@
       margin-left: 10px;
     }
   }
+  .content {
+    height: 740px;
+    padding-top: 128px;
+  }
 }
 .wrapper {
-  height: 740px;
   margin-top: 78px;
   background-color: white;
 }
@@ -60,10 +62,7 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.content {
-  height: 740px;
-  padding-top: 128px;
-}
+
 .line1,
 .line2,
 .line3,

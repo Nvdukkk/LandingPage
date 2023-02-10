@@ -15,18 +15,22 @@ function Social() {
           iTop, Web riêng,...
         </div>
 
-        <div className={cx("wave")}></div>
+        <img
+          src="https://w.ladicdn.com/5c7362c6c417ab07e5196b05/radial-waves_ver-2_1-20220712030130.gif"
+          alt=""
+          className={cx("wave")}
+        ></img>
 
         <img
           src="https://w.ladicdn.com/s450x400/5c7362c6c417ab07e5196b05/14-20220701034920.png"
           alt=""
           className={cx("logo1")}
         ></img>
-        <img
+        {/* <img
           src="https://w.ladicdn.com/s500x550/5c7362c6c417ab07e5196b05/group1222-20220701034805.png"
           alt=""
           className={cx("ladi-logo")}
-        ></img>
+  ></img> */}
       </div>
     </div>
   );

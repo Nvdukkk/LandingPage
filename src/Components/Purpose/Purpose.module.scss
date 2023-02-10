@@ -1,8 +1,8 @@
-@media (max-width: 1000px) {
+@media (max-width: 767px) {
   .wrapper,
   .content,
   .box-content {
-    width: 420px;
+    
     img {
       width: 100%;
       margin-top: 20px;
@@ -20,13 +20,13 @@
     margin-top: 10px;
     padding-bottom: 50px;
   }
-  .usenowbtn{
+  .usenowbtn {
     text-align: center;
-  margin-top: 14px;
+    margin-top: 14px;
   }
 }
-@media (min-width: 1001px) {
-  .wrapper{
+@media (min-width: 768px) {
+  .wrapper {
     width: 100%;
   }
   .content,
@@ -48,14 +48,13 @@
     margin-right: 70px;
     margin-left: 50px;
   }
-  .usenowbtn{
+  .usenowbtn {
     margin-top: 70px;
   }
 }
 
 .content {
   button {
-    
     margin: 8px;
   }
 }

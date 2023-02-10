@@ -9,7 +9,6 @@ function Footer() {
     <div className={cx("wrapper")}>
       <div className={cx("content")}>
         <div className={cx("line1")}>
-          
           <img src={logo} alt=""></img>
         </div>
         <div className={cx("line2")}>
@@ -38,7 +37,6 @@ function Footer() {
           </div>
           
           <div className={cx("responsive")}>
-
             <div className={cx("col2")}>
               <div className={cx("hyper-line")}>Tài liệu</div>
               <a href="#">Kho giao diện</a>
@@ -68,12 +66,18 @@ function Footer() {
             CÔNG TY CỔ PHẦN CÔNG NGHỆ LADIPAGE VIỆT NAM
           </div>
           <div className={cx("icon")}>
-            <img src={logo} alt=""></img>
-            <img src={logo} alt=""></img>
-            <img src={logo} alt=""></img>
-            <img src={logo} alt=""></img>
-            <img src={logo} alt=""></img>
-            <img src={logo} alt=""></img>
+            <span>
+              <img src={logo} alt=""></img>
+              <img src={logo} alt=""></img>
+            </span>
+            <span>
+              <img src={logo} alt=""></img>
+              <img src={logo} alt=""></img>
+            </span>
+            <span>
+              <img src={logo} alt=""></img>
+              <img src={logo} alt=""></img>
+            </span>
           </div>
           <div className={cx("presented-by")}>
             <img src={logobocongthuong} alt=""></img>

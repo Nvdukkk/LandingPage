@@ -120,10 +120,11 @@ table {
   text-align: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 767px) {
   .no-mobile {
     display: none !important;
   }
+  
   .header-btn {
     width: 35px;
     height: 35px;
@@ -138,7 +139,7 @@ table {
   }
 }
 
-@media (min-width: 1001px) {
+@media (min-width: 768px) {
   .no-desktop {
     display: none !important;
   }

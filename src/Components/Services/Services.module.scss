@@ -1,8 +1,5 @@
-@media (max-width: 1000px) {
-  .wrapper,
-  .content {
-    width: 420px;
-  }
+@media (max-width: 767px) {
+  
   .line2 {
     font-size: 15px;
     padding: 0px 20px;
@@ -30,7 +27,7 @@
   }
 }
 
-@media (min-width: 1001px) {
+@media (min-width: 768px) {
   .wrapper {
     width: 100%;
   }

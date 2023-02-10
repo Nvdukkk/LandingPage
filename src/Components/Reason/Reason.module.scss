@@ -1,45 +1,43 @@
-@media (max-width: 1000px){
+@media (max-width: 767px) {
   .wrapper,
-  .content{
+  .content {
     width: 400px;
     margin: 20px 10px;
-    
   }
-  .reason{
+  .reason {
     display: -webkit-inline-box;
     overflow-x: scroll;
   }
   .reason-box1 {
     padding: 0 20px;
-    margin-right: -10px
+    margin-right: -10px;
   }
-  .head-line{
+  .head-line {
     line-height: 40px;
   }
-  .sub-line{
+  .sub-line {
     margin-right: -10px;
   }
 }
-@media (min-width: 1001px) {
+@media (min-width: 768px) {
   .wrapper {
-  width: 100%;
-}
-.content {
-  width: 1200px;
-  margin-right: calc((100% - 1200px) / 2);
-  margin-left: calc((100% - 1200px) / 2);
-}
-.reason {
-  padding-top: 20px;
-  height: 380px;
-  display: flex;
-  justify-content: space-between;
-}
-.reason-box1 {
-  height: 350px;
-  width: 380px;
-}
-
+    width: 100%;
+  }
+  .content {
+    width: 1200px;
+    margin-right: calc((100% - 1200px) / 2);
+    margin-left: calc((100% - 1200px) / 2);
+  }
+  .reason {
+    padding-top: 20px;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .reason-box1 {
+    height: 350px;
+    width: 380px;
+  }
 }
 .reason-img {
   width: 120px;

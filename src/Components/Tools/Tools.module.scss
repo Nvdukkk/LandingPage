@@ -1,7 +1,5 @@
-@media (max-width: 1000px) {
-  .wrapper {
-    width: 400px;
-  }
+@media (max-width: 767px) {
+  
   .content {
     button {
       width: 50%;
@@ -19,7 +17,7 @@
   }
 }
 
-@media (min-width: 1001px) {
+@media (min-width: 768px) {
   .wrapper {
     width: 100%;
   }
@@ -45,7 +43,7 @@
 
 .content {
   button {
-    background-color: rgb(250, 250, 250);;
+    background-color: rgb(250, 250, 250);
     &:hover {
       cursor: pointer;
     }
