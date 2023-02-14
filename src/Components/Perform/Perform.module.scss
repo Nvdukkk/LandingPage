@@ -1,12 +1,13 @@
 @media (max-width: 767px) {
-  .wrapper,
   .content {
-    width: 400px;
+    text-align: center;
   }
   .line {
     margin-top: 100px;
     display: flex;
     overflow-x: scroll;
+    margin-bottom: 20px;
+
   }
   .container {
     height: 203px;
