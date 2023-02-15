@@ -9,8 +9,8 @@ function Perform() {
     <div className={cx("wrapper")}>
       <div className={cx("content")}>
         <div className="head-line">
-          Khi bạn đã có mục tiêu cụ thể, LadiPage sẽ có công cụ giúp bạn
-          thực hiện nó
+          Khi bạn đã có mục tiêu cụ thể, LadiPage sẽ có công cụ giúp bạn thực
+          hiện nó
         </div>
         <div className={cx("line")}>
           <div className={cx("container")}>
@@ -53,7 +53,6 @@ function Perform() {
             </div>
           </div> */}
         </div>
-        
         <CenterUseNowBtn></CenterUseNowBtn>
       </div>
     </div>
