@@ -26,11 +26,11 @@ function Social() {
           alt=""
           className={cx("logo1")}
         ></img>
-        {/* <img
+        <img
           src="https://w.ladicdn.com/s500x550/5c7362c6c417ab07e5196b05/group1222-20220701034805.png"
           alt=""
           className={cx("ladi-logo")}
-  ></img> */}
+        ></img>
       </div>
     </div>
   );
